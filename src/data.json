@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "iban": "GB29 NWBK 6016 1331 9268 19",
+      "dateOfBirth": "1990-05-15"
+    },
+    {
+      "id": "536f11ae-fcc5-4221-bd18-4b0c15fde0bd",
+      "name": "sdfs",
+      "username": "sdfwdf",
+      "email": "fsdfws@vgerfge.com",
+      "iban": "sd",
+      "dateOfBirth": ""
+    }
+  ]
+}
