@@ -1,6 +1,5 @@
 {
-  "homepage": "https://lilitkhalatan.github.io/frontend-task",
-  "name": "frontend-task",
+  "name": "frontend-task-gh-actions",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,8 +26,6 @@
   },
   "scripts": {
     "start": "react-scripts start --port 3000",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start-server": "json-server --watch ./src/data.json --port 3001",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -53,7 +50,6 @@
     ]
   },
   "devDependencies": {
-    "@types/uuid": "^9.0.8",
-    "gh-pages": "^6.1.1"
+    "@types/uuid": "^9.0.8"
   }
 }
