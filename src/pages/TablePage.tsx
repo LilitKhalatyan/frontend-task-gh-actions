@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom"; // Import Link from React Router
 import DataTable from "../components/Table";
 import useStore from "../store";
 import Button from "../components/Button";
@@ -30,13 +31,11 @@ const TablePage: React.FC = () => {
     fetchData();
   }, [fetchUsers]);
 
-  const goToFormPage = () => {
-    window.location.href = "/moderator";
-  };
-
   return (
     <div>
-      <Button label="Go to Form Page" onClick={goToFormPage} />
+      <Link to="/moderator">
+        <Button label="Go to Form Page" />
+      </Link>
       <h1>User Data</h1>
       {loading ? (
         <p>Loading...</p>
