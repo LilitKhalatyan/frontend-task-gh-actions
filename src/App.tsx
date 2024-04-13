@@ -1,12 +1,12 @@
 import React from "react";
-import { BrowserRouter , Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import TablePage from "./pages/TablePage";
 import ModeratorPage from "./pages/ModeratorPage";
 
 function App() {
   return (
-    <BrowserRouter >
+    <BrowserRouter>
       <div className="App">
         <Routes>
           <Route path="/" element={<TablePage />} />

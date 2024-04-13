@@ -6,13 +6,41 @@ import Button from "./Button";
 
 const validationSchema = z.object({
   id: z.string(),
-  name: z.string().min(2).max(50),
-  username: z.string().min(4).max(20),
-  email: z.string().email(),
+  name: z
+    .string()
+    .min(2, { message: "Name must be at least 2 characters" })
+    .max(50, { message: "Name cannot exceed 50 characters" }),
+  username: z
+    .string()
+    .min(4, { message: "Username must be at least 4 characters" })
+    .max(20, { message: "Username cannot exceed 20 characters" }),
+  email: z.string().email({ message: "Invalid email format" }),
+  password: z
+    .string()
+    .regex(/^[^\s]{8,}$/, {
+      message: "Password must be at least 8 characters long",
+    })
+    .regex(/[a-z]/, {
+      message: "Password must contain at least one lowercase letter",
+    })
+    .regex(/[A-Z]/, {
+      message: "Password must contain at least one uppercase letter",
+    })
+    .regex(/\d/, { message: "Password must contain at least one digit" })
+    .regex(/\d/, {
+      message: "Password must contain at least one special character",
+    }),
+
   iban: z
     .string()
-    .length(2, { message: "IBAN must contain exactly 22 characters" }),
-  dateOfBirth: z.string(),
+    .regex(/^[A-Z]{2}\d{2}[A-Z\d]{4}\d{7}([A-Z\d]?){0,16}$/, {
+      message: "Invalid IBAN format",
+    }),
+  dateOfBirth: z
+    .string()
+    .regex(/^\d{4}-\d{2}-\d{2}$/, {
+      message: "Invalid format: it should be YYYY-MM-DD",
+    }),
 });
 
 const DataForm: React.FC = () => {
@@ -23,6 +51,7 @@ const DataForm: React.FC = () => {
     name: "",
     username: "",
     email: "",
+    password: "",
     iban: "",
     dateOfBirth: "",
   });
@@ -30,6 +59,7 @@ const DataForm: React.FC = () => {
     name: "",
     username: "",
     email: "",
+    password: "",
     iban: "",
     dateOfBirth: "",
   });
@@ -53,6 +83,7 @@ const DataForm: React.FC = () => {
         name: "",
         username: "",
         email: "",
+        password: "",
         iban: "",
         dateOfBirth: "",
       });
@@ -97,6 +128,13 @@ const DataForm: React.FC = () => {
         />
         <span>{errors.email}</span>
         <Input
+          label="Password"
+          name="password"
+          value={form.password}
+          onChange={handleChange}
+        />
+        <span>{errors.password}</span>
+        <Input
           label="IBAN"
           name="iban"
           value={form.iban}
@@ -109,6 +147,7 @@ const DataForm: React.FC = () => {
           value={form.dateOfBirth}
           onChange={handleChange}
         />
+        <span>{errors.dateOfBirth}</span>
         <Button label="Submit" onClick={() => {}} disabled={submitting} />
       </form>
     </div>
