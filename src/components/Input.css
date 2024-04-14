@@ -1,0 +1,13 @@
+label {
+  display: block;
+  width: 150px;
+}
+input {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 3px;
+}
+.flex {
+  display: flex;
+  margin: 3px 0;
+}

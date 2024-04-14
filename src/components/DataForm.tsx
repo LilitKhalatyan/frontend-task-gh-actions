@@ -3,6 +3,7 @@ import { z } from "zod";
 import useStore from "../store";
 import Input from "./Input";
 import Button from "./Button";
+import "./DataForm.css";
 
 const validationSchema = z.object({
   id: z.string(),
@@ -100,7 +101,7 @@ const DataForm: React.FC = () => {
 
   return (
     <div>
-      <h2>Add User</h2>
+      <h2 className="popup-header">Add User</h2>
       <form onSubmit={handleSubmit}>
         <Input
           label="Name"
@@ -108,43 +109,45 @@ const DataForm: React.FC = () => {
           value={form.name}
           onChange={handleChange}
         />
-        <span>{errors.name}</span>
+        <span className="error">{errors.name}</span>
         <Input
           label="Username"
           name="username"
           value={form.username}
           onChange={handleChange}
         />
-        <span>{errors.username}</span>
+        <span className="error">{errors.username}</span>
         <Input
           label="Email"
           name="email"
           value={form.email}
           onChange={handleChange}
         />
-        <span>{errors.email}</span>
+        <span className="error">{errors.email}</span>
         <Input
           label="Password"
           name="password"
           value={form.password}
           onChange={handleChange}
         />
-        <span>{errors.password}</span>
+        <span className="error">{errors.password}</span>
         <Input
           label="IBAN"
           name="iban"
           value={form.iban}
           onChange={handleChange}
         />
-        <span>{errors.iban}</span>
+        <span className="error">{errors.iban}</span>
         <Input
           label="Date of Birth"
           name="dateOfBirth"
           value={form.dateOfBirth}
           onChange={handleChange}
         />
-        <span>{errors.dateOfBirth}</span>
-        <Button label="Submit" onClick={() => {}} disabled={submitting} />
+        <span className="error">{errors.dateOfBirth}</span>
+        <div className="popup-button">
+          <Button label="Submit" onClick={() => {}} disabled={submitting} />
+        </div>
       </form>
     </div>
   );

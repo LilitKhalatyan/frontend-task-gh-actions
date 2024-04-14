@@ -1,4 +1,5 @@
 import React from "react";
+import "./Input.css";
 
 interface InputProps {
   label: string;
@@ -16,7 +17,7 @@ const Input: React.FC<InputProps> = ({
   onChange,
 }) => {
   return (
-    <div>
+    <div className="flex">
       <label>{label}:</label>
       <input type={type} name={name} value={value} onChange={onChange} />
     </div>

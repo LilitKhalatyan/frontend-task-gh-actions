@@ -406,12 +406,13 @@
       "dateOfBirth": "1998-09-30"
     },
     {
-      "id": "5a689645-2023-4150-866d-2e04c02a6d39",
-      "name": "fghf",
-      "username": "dfghfg",
-      "email": "ghf@sdfs.com",
-      "iban": "22",
-      "dateOfBirth": "dsdaf"
+      "id": "ee159d2a-f93c-41a1-80d1-165eb1cca686",
+      "name": "Test",
+      "username": "test",
+      "email": "test@test.com",
+      "password": "Password123!",
+      "iban": "GB82WEST12345698765432",
+      "dateOfBirth": "1995-03-21"
     }
   ]
 }

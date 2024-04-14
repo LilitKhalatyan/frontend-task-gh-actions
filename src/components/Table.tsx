@@ -22,7 +22,8 @@ const Table: React.FC<DataTableProps> = ({ data, headers }) => {
       <PrimeDataTable
         value={data}
         stripedRows
-        tableStyle={{ minWidth: "50rem" }}
+        scrollable
+        tableStyle={{ minWidth: "60rem" }}
       >
         <Column
           header="N"
