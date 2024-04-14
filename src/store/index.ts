@@ -15,7 +15,7 @@ const useStore = create<StoreState>((set) => ({
   fetchUsers: async () => {
     console.log(`${config.apiUrl}/users`);
     try {
-      const response = await fetch(`http://localhost:3001/users`, {
+      const response = await fetch(`${config.apiUrl}/users`, {
         method: "GET",
         headers: {
           Accept: "application/json",

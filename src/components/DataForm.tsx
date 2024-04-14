@@ -27,20 +27,16 @@ const validationSchema = z.object({
       message: "Password must contain at least one uppercase letter",
     })
     .regex(/\d/, { message: "Password must contain at least one digit" })
-    .regex(/\d/, {
+    .regex(/^(?=.*[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]).*$/, {
       message: "Password must contain at least one special character",
     }),
 
-  iban: z
-    .string()
-    .regex(/^[A-Z]{2}\d{2}[A-Z\d]{4}\d{7}([A-Z\d]?){0,16}$/, {
-      message: "Invalid IBAN format",
-    }),
-  dateOfBirth: z
-    .string()
-    .regex(/^\d{4}-\d{2}-\d{2}$/, {
-      message: "Invalid format: it should be YYYY-MM-DD",
-    }),
+  iban: z.string().regex(/^[A-Z]{2}\d{2}[A-Z\d]{4}\d{7}([A-Z\d]?){0,16}$/, {
+    message: "Invalid IBAN format",
+  }),
+  dateOfBirth: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, {
+    message: "Invalid format: it should be YYYY-MM-DD",
+  }),
 });
 
 const DataForm: React.FC = () => {

@@ -1,52 +1,409 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "John Doe",
-      "username": "johndoe",
-      "email": "john.doe@example.com",
-      "iban": "GB29 NWBK 6016 1331 9268 19",
-      "dateOfBirth": "1990-05-15"
+      "id": "a6a01be7-4e58-469f-9f6b-3fafe5518b5e",
+      "name": "Alice Smith",
+      "username": "alice123",
+      "email": "alice@example.com",
+      "password": "Password123!",
+      "iban": "GB82WEST12345698765432",
+      "dateOfBirth": "1995-03-21"
     },
     {
-      "id": "536f11ae-fcc5-4221-bd18-4b0c15fde0bd",
-      "name": "sdfs",
-      "username": "sdfwdf",
-      "email": "fsdfws@vgerfge.com",
-      "iban": "sd",
-      "dateOfBirth": ""
+      "id": "f8d9c7ba-bbd5-499b-b666-27f5073cfb51",
+      "name": "Bob Johnson",
+      "username": "bob456",
+      "email": "bob@example.com",
+      "password": "SecurePass123#",
+      "iban": "DE89370400440532013000",
+      "dateOfBirth": "1988-11-10"
     },
     {
-      "id": "043efe9e-5257-4f25-b979-ac548c20b7f9",
-      "name": "sd",
-      "username": "sdfasdf",
-      "email": "sdf@sdfs.com",
-      "iban": "sd",
-      "dateOfBirth": ""
+      "id": "3c7d7209-b64d-40e0-9b89-dc6e5c24d1b3",
+      "name": "Charlie Brown",
+      "username": "charlie789",
+      "email": "charlie@example.com",
+      "password": "StrongPassword789$",
+      "iban": "FR7630066100410001057380116",
+      "dateOfBirth": "1992-07-05"
     },
     {
-      "id": "f39712d5-56a8-4b8d-ad74-08bd1623de52",
-      "name": "sdfs",
-      "username": "SDFWS",
-      "email": "DF@sdf.com",
-      "iban": "sd",
-      "dateOfBirth": ""
+      "id": "e59c7f38-ff36-4bc9-aa59-52b6a9c4d4f1",
+      "name": "David Lee",
+      "username": "david00",
+      "email": "david@example.com",
+      "password": "Pa$$w0rd789",
+      "iban": "US42180609159578266390",
+      "dateOfBirth": "1980-04-15"
     },
     {
-      "id": "897a4c4c-4a8f-416d-929a-85582aa5a769",
-      "name": "fgesrfgws",
-      "username": "sdfvsdv",
-      "email": "sdf@sdfvssd.com",
-      "iban": "sd",
-      "dateOfBirth": ""
+      "id": "cfd87e8c-03da-4b24-aa7e-017430d60e2b",
+      "name": "Emily Davis",
+      "username": "emily01",
+      "email": "emily@example.com",
+      "password": "P@ssw0rd!987",
+      "iban": "IT60X0542811101000000123456",
+      "dateOfBirth": "1998-09-30"
     },
     {
-      "id": "1ccb6318-a0cf-4ffd-b5ec-e2914794b12c",
-      "name": "dfvasd",
-      "username": "sddddd",
-      "email": "sd@dddddddddddddd.com",
-      "iban": "ss",
-      "dateOfBirth": ""
+      "id": "25b36b53-7d62-4de4-bb18-9c2f9b2b9df1",
+      "name": "Fiona Clark",
+      "username": "fiona789",
+      "email": "fiona@example.com",
+      "password": "Password123!",
+      "iban": "GB82WEST12345698765432",
+      "dateOfBirth": "1995-03-21"
+    },
+    {
+      "id": "abb9d624-c3f4-4644-89b6-dbe2d8fbb5b8",
+      "name": "George Turner",
+      "username": "george456",
+      "email": "george@example.com",
+      "password": "SecurePass123#",
+      "iban": "DE89370400440532013000",
+      "dateOfBirth": "1988-11-10"
+    },
+    {
+      "id": "207c89c7-9e45-47b2-81c6-2e9fe6c60c87",
+      "name": "Hannah Baker",
+      "username": "hannah789",
+      "email": "hannah@example.com",
+      "password": "StrongPassword789$",
+      "iban": "FR7630066100410001057380116",
+      "dateOfBirth": "1992-07-05"
+    },
+    {
+      "id": "e22569ac-ee9d-4e7b-8202-c592ae08a3cf",
+      "name": "Ian Adams",
+      "username": "ian00",
+      "email": "ian@example.com",
+      "password": "Pa$$w0rd789",
+      "iban": "US42180609159578266390",
+      "dateOfBirth": "1980-04-15"
+    },
+    {
+      "id": "f443108e-083b-41b8-ba67-19620fc0462a",
+      "name": "Jasmine Evans",
+      "username": "jasmine01",
+      "email": "jasmine@example.com",
+      "password": "P@ssw0rd!987",
+      "iban": "IT60X0542811101000000123456",
+      "dateOfBirth": "1998-09-30"
+    },
+    {
+      "id": "25b36b53-7d62-4de4-bb18-9c2f9b2b9df1",
+      "name": "Fiona Clark",
+      "username": "fiona789",
+      "email": "fiona@example.com",
+      "password": "Password123!",
+      "iban": "GB82WEST12345698765432",
+      "dateOfBirth": "1995-03-21"
+    },
+    {
+      "id": "abb9d624-c3f4-4644-89b6-dbe2d8fbb5b8",
+      "name": "George Turner",
+      "username": "george456",
+      "email": "george@example.com",
+      "password": "SecurePass123#",
+      "iban": "DE89370400440532013000",
+      "dateOfBirth": "1988-11-10"
+    },
+    {
+      "id": "207c89c7-9e45-47b2-81c6-2e9fe6c60c87",
+      "name": "Hannah Baker",
+      "username": "hannah789",
+      "email": "hannah@example.com",
+      "password": "StrongPassword789$",
+      "iban": "FR7630066100410001057380116",
+      "dateOfBirth": "1992-07-05"
+    },
+    {
+      "id": "e22569ac-ee9d-4e7b-8202-c592ae08a3cf",
+      "name": "Ian Adams",
+      "username": "ian00",
+      "email": "ian@example.com",
+      "password": "Pa$$w0rd789",
+      "iban": "US42180609159578266390",
+      "dateOfBirth": "1980-04-15"
+    },
+    {
+      "id": "f443108e-083b-41b8-ba67-19620fc0462a",
+      "name": "Jasmine Evans",
+      "username": "jasmine01",
+      "email": "jasmine@example.com",
+      "password": "P@ssw0rd!987",
+      "iban": "IT60X0542811101000000123456",
+      "dateOfBirth": "1998-09-30"
+    },
+    {
+      "id": "a6a01be7-4e58-469f-9f6b-3fafe5518b5e",
+      "name": "Alice Smith",
+      "username": "alice123",
+      "email": "alice@example.com",
+      "password": "Password123!",
+      "iban": "GB82WEST12345698765432",
+      "dateOfBirth": "1995-03-21"
+    },
+    {
+      "id": "f8d9c7ba-bbd5-499b-b666-27f5073cfb51",
+      "name": "Bob Johnson",
+      "username": "bob456",
+      "email": "bob@example.com",
+      "password": "SecurePass123#",
+      "iban": "DE89370400440532013000",
+      "dateOfBirth": "1988-11-10"
+    },
+    {
+      "id": "3c7d7209-b64d-40e0-9b89-dc6e5c24d1b3",
+      "name": "Charlie Brown",
+      "username": "charlie789",
+      "email": "charlie@example.com",
+      "password": "StrongPassword789$",
+      "iban": "FR7630066100410001057380116",
+      "dateOfBirth": "1992-07-05"
+    },
+    {
+      "id": "e59c7f38-ff36-4bc9-aa59-52b6a9c4d4f1",
+      "name": "David Lee",
+      "username": "david00",
+      "email": "david@example.com",
+      "password": "Pa$$w0rd789",
+      "iban": "US42180609159578266390",
+      "dateOfBirth": "1980-04-15"
+    },
+    {
+      "id": "cfd87e8c-03da-4b24-aa7e-017430d60e2b",
+      "name": "Emily Davis",
+      "username": "emily01",
+      "email": "emily@example.com",
+      "password": "P@ssw0rd!987",
+      "iban": "IT60X0542811101000000123456",
+      "dateOfBirth": "1998-09-30"
+    },
+    {
+      "id": "25b36b53-7d62-4de4-bb18-9c2f9b2b9df1",
+      "name": "Fiona Clark",
+      "username": "fiona789",
+      "email": "fiona@example.com",
+      "password": "Password123!",
+      "iban": "GB82WEST12345698765432",
+      "dateOfBirth": "1995-03-21"
+    },
+    {
+      "id": "abb9d624-c3f4-4644-89b6-dbe2d8fbb5b8",
+      "name": "George Turner",
+      "username": "george456",
+      "email": "george@example.com",
+      "password": "SecurePass123#",
+      "iban": "DE89370400440532013000",
+      "dateOfBirth": "1988-11-10"
+    },
+    {
+      "id": "207c89c7-9e45-47b2-81c6-2e9fe6c60c87",
+      "name": "Hannah Baker",
+      "username": "hannah789",
+      "email": "hannah@example.com",
+      "password": "StrongPassword789$",
+      "iban": "FR7630066100410001057380116",
+      "dateOfBirth": "1992-07-05"
+    },
+    {
+      "id": "e22569ac-ee9d-4e7b-8202-c592ae08a3cf",
+      "name": "Ian Adams",
+      "username": "ian00",
+      "email": "ian@example.com",
+      "password": "Pa$$w0rd789",
+      "iban": "US42180609159578266390",
+      "dateOfBirth": "1980-04-15"
+    },
+    {
+      "id": "f443108e-083b-41b8-ba67-19620fc0462a",
+      "name": "Jasmine Evans",
+      "username": "jasmine01",
+      "email": "jasmine@example.com",
+      "password": "P@ssw0rd!987",
+      "iban": "IT60X0542811101000000123456",
+      "dateOfBirth": "1998-09-30"
+    },
+    {
+      "id": "25b36b53-7d62-4de4-bb18-9c2f9b2b9df1",
+      "name": "Fiona Clark",
+      "username": "fiona789",
+      "email": "fiona@example.com",
+      "password": "Password123!",
+      "iban": "GB82WEST12345698765432",
+      "dateOfBirth": "1995-03-21"
+    },
+    {
+      "id": "abb9d624-c3f4-4644-89b6-dbe2d8fbb5b8",
+      "name": "George Turner",
+      "username": "george456",
+      "email": "george@example.com",
+      "password": "SecurePass123#",
+      "iban": "DE89370400440532013000",
+      "dateOfBirth": "1988-11-10"
+    },
+    {
+      "id": "207c89c7-9e45-47b2-81c6-2e9fe6c60c87",
+      "name": "Hannah Baker",
+      "username": "hannah789",
+      "email": "hannah@example.com",
+      "password": "StrongPassword789$",
+      "iban": "FR7630066100410001057380116",
+      "dateOfBirth": "1992-07-05"
+    },
+    {
+      "id": "e22569ac-ee9d-4e7b-8202-c592ae08a3cf",
+      "name": "Ian Adams",
+      "username": "ian00",
+      "email": "ian@example.com",
+      "password": "Pa$$w0rd789",
+      "iban": "US42180609159578266390",
+      "dateOfBirth": "1980-04-15"
+    },
+    {
+      "id": "f443108e-083b-41b8-ba67-19620fc0462a",
+      "name": "Jasmine Evans",
+      "username": "jasmine01",
+      "email": "jasmine@example.com",
+      "password": "P@ssw0rd!987",
+      "iban": "IT60X0542811101000000123456",
+      "dateOfBirth": "1998-09-30"
+    },
+    {
+      "id": "a6a01be7-4e58-469f-9f6b-3fafe5518b5e",
+      "name": "Alice Smith",
+      "username": "alice123",
+      "email": "alice@example.com",
+      "password": "Password123!",
+      "iban": "GB82WEST12345698765432",
+      "dateOfBirth": "1995-03-21"
+    },
+    {
+      "id": "f8d9c7ba-bbd5-499b-b666-27f5073cfb51",
+      "name": "Bob Johnson",
+      "username": "bob456",
+      "email": "bob@example.com",
+      "password": "SecurePass123#",
+      "iban": "DE89370400440532013000",
+      "dateOfBirth": "1988-11-10"
+    },
+    {
+      "id": "3c7d7209-b64d-40e0-9b89-dc6e5c24d1b3",
+      "name": "Charlie Brown",
+      "username": "charlie789",
+      "email": "charlie@example.com",
+      "password": "StrongPassword789$",
+      "iban": "FR7630066100410001057380116",
+      "dateOfBirth": "1992-07-05"
+    },
+    {
+      "id": "e59c7f38-ff36-4bc9-aa59-52b6a9c4d4f1",
+      "name": "David Lee",
+      "username": "david00",
+      "email": "david@example.com",
+      "password": "Pa$$w0rd789",
+      "iban": "US42180609159578266390",
+      "dateOfBirth": "1980-04-15"
+    },
+    {
+      "id": "cfd87e8c-03da-4b24-aa7e-017430d60e2b",
+      "name": "Emily Davis",
+      "username": "emily01",
+      "email": "emily@example.com",
+      "password": "P@ssw0rd!987",
+      "iban": "IT60X0542811101000000123456",
+      "dateOfBirth": "1998-09-30"
+    },
+    {
+      "id": "25b36b53-7d62-4de4-bb18-9c2f9b2b9df1",
+      "name": "Fiona Clark",
+      "username": "fiona789",
+      "email": "fiona@example.com",
+      "password": "Password123!",
+      "iban": "GB82WEST12345698765432",
+      "dateOfBirth": "1995-03-21"
+    },
+    {
+      "id": "abb9d624-c3f4-4644-89b6-dbe2d8fbb5b8",
+      "name": "George Turner",
+      "username": "george456",
+      "email": "george@example.com",
+      "password": "SecurePass123#",
+      "iban": "DE89370400440532013000",
+      "dateOfBirth": "1988-11-10"
+    },
+    {
+      "id": "207c89c7-9e45-47b2-81c6-2e9fe6c60c87",
+      "name": "Hannah Baker",
+      "username": "hannah789",
+      "email": "hannah@example.com",
+      "password": "StrongPassword789$",
+      "iban": "FR7630066100410001057380116",
+      "dateOfBirth": "1992-07-05"
+    },
+    {
+      "id": "e22569ac-ee9d-4e7b-8202-c592ae08a3cf",
+      "name": "Ian Adams",
+      "username": "ian00",
+      "email": "ian@example.com",
+      "password": "Pa$$w0rd789",
+      "iban": "US42180609159578266390",
+      "dateOfBirth": "1980-04-15"
+    },
+    {
+      "id": "f443108e-083b-41b8-ba67-19620fc0462a",
+      "name": "Jasmine Evans",
+      "username": "jasmine01",
+      "email": "jasmine@example.com",
+      "password": "P@ssw0rd!987",
+      "iban": "IT60X0542811101000000123456",
+      "dateOfBirth": "1998-09-30"
+    },
+    {
+      "id": "25b36b53-7d62-4de4-bb18-9c2f9b2b9df1",
+      "name": "Fiona Clark",
+      "username": "fiona789",
+      "email": "fiona@example.com",
+      "password": "Password123!",
+      "iban": "GB82WEST12345698765432",
+      "dateOfBirth": "1995-03-21"
+    },
+    {
+      "id": "abb9d624-c3f4-4644-89b6-dbe2d8fbb5b8",
+      "name": "George Turner",
+      "username": "george456",
+      "email": "george@example.com",
+      "password": "SecurePass123#",
+      "iban": "DE89370400440532013000",
+      "dateOfBirth": "1988-11-10"
+    },
+    {
+      "id": "207c89c7-9e45-47b2-81c6-2e9fe6c60c87",
+      "name": "Hannah Baker",
+      "username": "hannah789",
+      "email": "hannah@example.com",
+      "password": "StrongPassword789$",
+      "iban": "FR7630066100410001057380116",
+      "dateOfBirth": "1992-07-05"
+    },
+    {
+      "id": "e22569ac-ee9d-4e7b-8202-c592ae08a3cf",
+      "name": "Ian Adams",
+      "username": "ian00",
+      "email": "ian@example.com",
+      "password": "Pa$$w0rd789",
+      "iban": "US42180609159578266390",
+      "dateOfBirth": "1980-04-15"
+    },
+    {
+      "id": "f443108e-083b-41b8-ba67-19620fc0462a",
+      "name": "Jasmine Evans",
+      "username": "jasmine01",
+      "email": "jasmine@example.com",
+      "password": "P@ssw0rd!987",
+      "iban": "IT60X0542811101000000123456",
+      "dateOfBirth": "1998-09-30"
     }
   ]
 }

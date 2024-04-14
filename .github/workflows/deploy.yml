@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy frontend-task
 
 # triggers
 on:
@@ -10,11 +10,11 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      
+
       - name: Install project dependencies
         run: npm install
 

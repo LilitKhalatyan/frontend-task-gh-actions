@@ -4,6 +4,8 @@ import "./App.css";
 import TablePage from "./pages/TablePage";
 import ModeratorPage from "./pages/ModeratorPage";
 
+// require('dotenv').config();
+
 function App() {
   return (
     <BrowserRouter>

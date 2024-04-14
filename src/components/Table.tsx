@@ -30,9 +30,11 @@ const Table: React.FC<DataTableProps> = ({ data, headers }) => {
             rowIndex + 1
           }
         />
-        {processedHeaders.slice(1).map((header, index) => (
-          <Column key={index + 1} field={header} header={header} />
-        ))}
+        {processedHeaders
+          .filter((header) => header !== "id" && header !== "password")
+          .map((header, index) => (
+            <Column key={index} field={header} header={header} />
+          ))}
       </PrimeDataTable>
     </>
   );

@@ -1,8 +1,5 @@
-let apiUrl = "http://localhost:3001";
-
-// if (process.env.NODE_ENV !== "development") {
-//   apiUrl = "http://REPLACE_WITH_INSTANCE_IP:3001";
-// }
+// const apiUrl = "http://localhost:3001";
+const apiUrl = "https://lilitkhalatyan.github.io/frontend-task-gh-actions";
 
 const config = {
   apiUrl,
