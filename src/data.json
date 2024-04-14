@@ -404,6 +404,14 @@
       "password": "P@ssw0rd!987",
       "iban": "IT60X0542811101000000123456",
       "dateOfBirth": "1998-09-30"
+    },
+    {
+      "id": "5a689645-2023-4150-866d-2e04c02a6d39",
+      "name": "fghf",
+      "username": "dfghfg",
+      "email": "ghf@sdfs.com",
+      "iban": "22",
+      "dateOfBirth": "dsdaf"
     }
   ]
 }
